@@ -9,7 +9,7 @@ driver.get('https://www.facebook.com')
 # Identificar etiquetas para ingresar las credenciales
 # Ingresar el correo
 correo = driver.find_element(By.XPATH, '//*[@id="email"]')
-correo.send_keys('pcuak76@gmail.com')
+correo.send_keys('jandrade2024w@gmail.com')
 
 # Ingresar la clave
 password = driver.find_element(By.XPATH, '//*[@id="pass"]')
